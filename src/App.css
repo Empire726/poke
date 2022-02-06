@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body{
+	background-image: linear-gradient(
+	-20deg,
+	#ddd6f3 0%,
+	#faaca8 100%,
+	#faaca8 100%
+);
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+padding: 3rem 1rem;
+}
+
+.container h1 {
+width: 0ch;
+color: rgb(16, 166, 236);
+overflow: hidden;
+white-space: nowrap;
+animation: for 4s steps(30) infinite alternate;
+}
+
+@keyframes for {
+0% {
+	width: 0ch;
+}
+50% {
+	width: 13ch;
+	color: navy;
+}
+
+}

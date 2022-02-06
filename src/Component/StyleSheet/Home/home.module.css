@@ -1,0 +1,86 @@
+.home{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.container_thumb{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0.5rem;
+  margin: 0.6rem;
+  border: 1px solid #efefef;
+  border-radius: 2rem;
+  min-width: 160px;
+  text-align: center;
+     background: navajowhite;
+  box-shadow: 2px 5px 15px rgba(10, 10, 10, 0.089);
+}
+
+.imager{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
+}
+.poke_img img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin: 2rem;
+}
+
+h3 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+text-transform: uppercase;
+margin-top: 15px;
+color: navy;
+}
+@media screen and (max-width: 550px){
+
+.container_thumb{
+  min-width: 100px;
+}
+
+.imager{
+    width: 250px;
+}
+.poke_img img{
+    width: 100px;
+    height: 100px;
+      margin-left: 1rem;
+}
+
+h3 {
+font-size: 22px;
+font-weight: 550;
+}
+}
+@media screen and (max-width: 300px){
+  .container_thumb{
+  min-width: 100px;
+}
+
+.imager{
+    width: 150px;
+    height: 200px;
+}
+.poke_img img{
+    width: 80px;
+    height: 80px;
+}
+
+h3 {
+font-size: 20px;
+font-weight: 450;
+margin-top: 10px;
+}  
+}
+
