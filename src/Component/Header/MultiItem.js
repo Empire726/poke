@@ -8,7 +8,7 @@ export const MenuItems = [
   },
  
   {
-    title: 'About US',
+    title: 'About',
     url: '/cart',
     cName: 'nav-links',
   },
@@ -17,14 +17,14 @@ export const MenuItems = [
   //   url: '',
   //   cName: 'nav-links',
   // },
-  {
-    title: 'Contact',
-    url: '/about',
-    cName: 'nav-links',
-  },
-  {
-    title: 'Sign up',
-    url: '/contact',
-    cName: 'nav-links-mobile',
-  },
+  // {
+  //   title: 'Contact',
+  //   url: '/about',
+  //   cName: 'nav-links',
+  // },
+  // {
+  //   title: 'Sign up',
+  //   url: '/contact',
+  //   cName: 'nav-links-mobile',
+  // },
 ];

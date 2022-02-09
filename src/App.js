@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   const [aPokemons, setAPokemons] = useState([]);
   const [loadPoke, setLoadPoke] = useState(
-    "https://pokeapi.co/api/v2/pokemon?limit=5"
+    "https://pokeapi.co/api/v2/pokemon?limit=3"
   );
   const getPokemons = async () => {
     const response = await fetch(loadPoke);
